@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="JavaScript/javascript_1.js"></script>
+    <style>
+        body {
+            font-family:Calibri;
+        }
+        .wrapper {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap:1rem;
+        }
+        .wrapper div {
+            align-items:center;
+            min-height: 200px;
+            background:#e5e5e5;
+            padding:1rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <!---------------------------------------------------->
+        <div>
+            <h2>Switch Statements</h2>
+            <button onclick="function1()">Execute</button>
+            <p id="par1"></p>
+        </div>
+        <!---------------------------------------------------->
+        <div>
+            <h2>getElementByClassName() Method</h2>
+            <button onclick="function2()">Execute</button>
+            <p class="par2"></p>
+        </div>
+        <!---------------------------------------------------->
+        <div>
+            <h2>Canvas</h2>
+            <button onclick="function3()">Execute</button>
+            <canvas id="draw" width="200" height="200" style="border:1px solid white;"></canvas>
+
+        </div>
+        <!---------------------------------------------------->
+        <div>
+            <h2>Gradient</h2>
+            <button onclick="function4()">Execute</button>
+            <canvas id="draw2" width="200" height="200" style="border:1px solid white;"></canvas>
+
+        </div>
+        <!---------------------------------------------------->
+        <div>
+            <h2>Form Validation</h2>
+            <form>
+                <input type="text" placeholder="Full name"/ required>
+                <input type="text" placeholder="Email"/ required>
+                <input type="submit"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

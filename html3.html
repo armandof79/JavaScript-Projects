@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="JavaScript/javascript_3.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/css_1.css" />
+    <style>
+        body {
+            font-family:Calibri;
+        }
+        .wrapper {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap:1rem;
+        }
+        .wrapper div {
+            min-height: 200px;
+            background:#e5e5e5;
+            padding:1rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <!---------------------------------------------------->
+        <div>
+            <h2>HTML Data Attributes</h2>
+            <button onclick="function1()">Execute</button>
+            <p id="par" data-author="José Saramago">Blindness</p>
+        </div>
+    </div>
+</body>
+</html>

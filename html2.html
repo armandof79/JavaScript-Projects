@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="JavaScript/javascript_1.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/css_1.css" />
+    <style>
+        body {
+            font-family:Calibri;
+        }
+        .wrapper {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap:1rem;
+        }
+        .wrapper div {
+            min-height: 200px;
+            background:#e5e5e5;
+            padding:1rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <!---------------------------------------------------->
+        <div>
+            <h2>Form Validation</h2>
+            <form class="form1">
+                <input type="text" placeholder="Full name" required/>
+                <input type="text" placeholder="Email" required/>
+                <input type="submit"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

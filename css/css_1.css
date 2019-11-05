@@ -1,0 +1,21 @@
+﻿.form1 input {
+   box-sizing:border-box;
+   width:100%;
+   padding:4px;
+   margin-top:5px;
+
+}
+
+.form1 input[type="submit"] {  
+    color:#ffffff;
+    background-color:#3f3f3f;
+    border:none;
+    padding:10px;
+    
+}
+
+.form1 input[type="submit"]:hover {
+    color:#3f3f3f;
+    background:#f9f9f9;
+    
+}
